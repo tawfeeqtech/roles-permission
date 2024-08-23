@@ -29,6 +29,7 @@ class ProfileController extends Controller
                 'password' => Hash::make($request->password),
             ]);
         }
-        return redirect()->route('users.profile')->with('success', 'Profile updated.');
+        toastr()->success('Profile updated successfully!');
+        return redirect()->route('users.profile');
     }
 }
