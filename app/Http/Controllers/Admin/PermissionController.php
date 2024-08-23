@@ -11,7 +11,7 @@ use Spatie\Permission\Models\Permission;
 class PermissionController extends Controller
 {
 
-    // public $permission;
+    public $permission;
     //
     public function __construct(Permission $permission)
     {
