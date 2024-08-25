@@ -16,5 +16,6 @@ composer require yoeunes/toastr
 php artisan flasher:install
  composer require spatie/laravel-permission
 
-php artisan make:controller Admin/PermissionController --resource
+php artisan make:controller Admin/RoleController --resource
 
+npm install vue

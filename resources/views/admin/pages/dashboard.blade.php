@@ -1,6 +1,9 @@
 @extends('admin.layouts.app')
 
 @section('content')
+    <div id="app">
+        <test></test>
+    </div>
     <div class="row">
         <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
             <div class="card">
@@ -142,3 +145,7 @@
         </div>
     </div>
 @endsection
+
+@push('scripts')
+    {{-- <script src="{{ mix('js/test.js') }}"></script> --}}
+@endpush

@@ -8,4 +8,6 @@
 <script src="{{ asset('assets/js/soft-ui-dashboard.min.js') }}"></script>
 
 <script src="{{ asset('assets/js/plugins/sweetalert.js') }}"></script>
+@vite(['resources/js/app.js'])
+
 @stack('scripts')
